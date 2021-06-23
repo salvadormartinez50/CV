@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Primer codigo en la web, con React, 22 de junio 2021.
+          Primer codigo en la web, con React, 23 de junio 2021.
         </p>
         <a
           className="App-link"
