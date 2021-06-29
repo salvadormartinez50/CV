@@ -1,13 +1,13 @@
-import logo from '../logo.svg';
-import '../styles/App.css';
+import foto from './images/foto.jpg';
+import   '../styles/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={foto} className="App-foto" alt="foto" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>Salvador Martínez Espinosa</code>.
         </p>
         <a
           className="App-link"
