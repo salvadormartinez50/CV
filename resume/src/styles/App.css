@@ -3,8 +3,9 @@
 }
 
 .App-foto {
-  height: 40vmin;
+  height: 48vmin;
   pointer-events: none;
+  margin-left: 58vw;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,7 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+ }
 
 .App-link {
   color: #61dafb;
@@ -35,4 +36,13 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+#p1 {
+  max-width: 80%;
+  font-size: 100px;
+  text-align: center;
+  color: red;
+  margin-top: -50vh;
+  margin-left: -4vw;
 }

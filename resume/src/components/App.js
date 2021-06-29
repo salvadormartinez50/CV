@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={foto} className="App-foto" alt="foto" />
-        <p>
+      <div> 
+        <p id="p1">
           <code>Salvador Martínez Espinosa</code>.
         </p>
         <a
@@ -17,9 +18,14 @@ function App() {
         >
           Learn React
         </a>
+        </div>
+         
       </header>
+      <div>kkkkkk</div>
     </div>
+  
   );
+  
 }
-
+<div>jjjj</div>
 export default App;
