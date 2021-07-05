@@ -79,7 +79,7 @@
 }
 .chava {
   width: 10%;
-  margin-left: -4vw;
+  margin-left: 1vw;
   margin-top: -12vh;
   font-size: 3vh;
   position: absolute;
@@ -157,7 +157,7 @@
   }
 }
 .WebPage {
-  text-align: right;
+  text-align: left;
   margin-left: 6vw;
   margin-bottom: 0vh;
   margin-top: 2vh;
