@@ -5,10 +5,19 @@
   display: block;
   top: 3vh;
 }
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 460px) {
   .center {
     width: 35%;
     margin-left: 24vh;
+    position: relative;
+    display: block;
+    top: 1vh;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+  .center {
+    width: 35%;
+    margin-left: 39vh;
     position: relative;
     display: block;
     top: 1vh;
@@ -57,12 +66,21 @@
   font-size: 3vh;
   position: absolute;
 }
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 460px) {
   .chava {
     width: 10%;
     margin-left: 12vw;
     margin-top: -12vh;
     font-size: 3vh;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+  .chava {
+    width: 10%;
+    margin-left: 12vw;
+    margin-top: -22vh;
+    font-size: 5vh;
     position: absolute;
   }
 }
@@ -110,11 +128,21 @@
   font-size: 2vh;
   color: blue;
 }
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 460px) {
   .WebPage {
     text-align: left;
     margin-left: 4vw;
     margin-bottom: 0vh;
+    font-size: 2vh;
+    color: blue;
+    Position:relative;
+  }
+}
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+  .WebPage {
+    text-align: left;
+    margin-left: 14vw;
+    margin-bottom: 2vh;
     font-size: 2vh;
     color: blue;
     Position:relative;
