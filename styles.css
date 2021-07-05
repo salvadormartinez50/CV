@@ -5,7 +5,16 @@
   display: block;
   top: 3vh;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  .center {
+    width: 35%;
+    margin-left: 14vh;
+    position: relative;
+    display: block;
+    top: 1vh;
+  }
+}
+@media only screen and (min-width: 768px) {
   .center {
     width: 35%;
     margin-left: 14vh;
