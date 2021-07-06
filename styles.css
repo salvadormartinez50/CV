@@ -1,6 +1,9 @@
+.firstContainer {
+  background-color: rgb(224, 235, 235);
+}
 @media only screen and (min-width: 200px) and (max-width: 1319px) {
-  .firstConteiner {
-    background-color:rgb(219, 230, 230);
+  .firstContainer {
+    background-color: rgb(229, 221, 186);
   }
 }
 .center {
@@ -64,7 +67,7 @@
     top: 1vh;
   }
 }
-@media only screen and (min-width:800px) and (max-width: 899px) {
+@media only screen and (min-width: 800px) and (max-width: 899px) {
   .center {
     width: 35%;
     margin-left: 12vh;
@@ -239,7 +242,7 @@
     margin-bottom: 0vh;
     font-size: 3vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 359px) {
@@ -249,7 +252,7 @@
     margin-bottom: 0vh;
     font-size: 2vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 460px) {
@@ -259,7 +262,7 @@
     margin-bottom: 0vh;
     font-size: 2vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 461px) and (max-width: 598px) {
@@ -269,17 +272,17 @@
     margin-bottom: 2vh;
     font-size: 2vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 599px) and (max-width: 767px) {
   .WebPage {
     text-align: left;
-      margin-left: 2vw;
+    margin-left: 2vw;
     margin-bottom: 0vh;
     font-size: 1vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -289,7 +292,7 @@
     margin-bottom: 0vh;
     font-size: 1vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -299,7 +302,7 @@
     margin-bottom: 0vh;
     font-size: 0.8vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -309,7 +312,7 @@
     margin-bottom: 0vh;
     font-size: 1.2vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1300px) {
@@ -319,7 +322,7 @@
     margin-bottom: 0vh;
     font-size: 3vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -329,7 +332,7 @@
     margin-bottom: 0vh;
     font-size: 2vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
 @media only screen and (min-width: 2400px) {
@@ -339,33 +342,33 @@
     margin-bottom: 0vh;
     font-size: 2vh;
     color: blue;
-    Position:relative;
+    position: relative;
   }
 }
-@media only screen and (min-width: 200px) and (max-width:319px) {
+@media only screen and (min-width: 200px) and (max-width: 319px) {
   .mail {
     text-align: left;
     margin-left: 3vw;
     margin-bottom: 0vh;
     font-size: 4vh;
     color: rgb(78, 82, 82);
-    Position:relative;
+    position: relative;
   }
 }
-@media only screen and (min-width: 320px) and (max-width:359px) {
+@media only screen and (min-width: 320px) and (max-width: 359px) {
   .mail {
     text-align: left;
     margin-left: 3vw;
     margin-bottom: 0vh;
     font-size: 3vh;
     color: rgb(78, 82, 82);
-    Position:relative;
+    position: relative;
   }
 }
 .logopoli {
   width: 6%;
 }
-@media only screen and (min-width: 320px) and (max-width:459px) {
+@media only screen and (min-width: 320px) and (max-width: 459px) {
   .logopoli {
     width: 10%;
   }
@@ -393,9 +396,9 @@
   margin-left: 14vw;
 }
 .h5 {
-  top: 10vh; 
+  top: 10vh;
   margin-left: 0vw;
-  width:2%;
+  width: 2%;
   box-sizing: 10%;
 }
 
