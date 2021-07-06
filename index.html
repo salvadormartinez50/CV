@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Resume</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Roboto"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <style>
-    html,
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: "Roboto", sans-serif;
-    }
-  </style>
+    <title>Resume</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Roboto", sans-serif;
+      }
+      #more {
+        display: none;
+      }
+      #more2 {
+        display: none;
+      }
+    </style>
+    <script src="./scripts/index.js"></script>
   </head>
-  <body style="background-color: rgb(224, 235, 235)"> <!-- This is the background color of the entire document-->
+  <body style="background-color: rgb(224, 235, 235)">
+    <!-- This is the background color of the entire document-->
     <!-- Page Container -->
     <div class="w3-content w3-margin-top" style="max-width: 2400px">
       <!-- The Grid -->
@@ -67,14 +75,20 @@
                 ></i
                 >México, Mx.
               </p>
-              <p class="mail"><a href="mailto:cchhava@nube.unadmexico.mx"><i
-                class="
-                  fa fa-envelope fa-fw
-                  w3-margin-right w3-large w3-text-blue
-                "
-              ></i
-              ></a>
-              <a href="mailto:cchhava@nube.unadmexico.mx" style="margin-left:-0.42vw;">cchhava@nube.unadmexico.mx</a>
+              <p class="mail">
+                <a href="mailto:cchhava@nube.unadmexico.mx"
+                  ><i
+                    class="
+                      fa fa-envelope fa-fw
+                      w3-margin-right w3-large w3-text-blue
+                    "
+                  ></i
+                ></a>
+                <a
+                  href="mailto:cchhava@nube.unadmexico.mx"
+                  style="margin-left: -0.42vw"
+                  >cchhava@nube.unadmexico.mx</a
+                >
               </p>
               <p>
                 <i
@@ -229,7 +243,9 @@
               <p style="text-align: justify">
                 As a software developer at my current work, I have been
                 responsible for providing maintenance to the web stack of
-                different companies, so my activities include fixing
+                different companies <span id="dots">...</span
+                  ><span id="more"
+                    >so my activities include fixing
                 CSS/HTML/Handlebars issues, changing current functionality
                 within the ReactJS components for both class and function based
                 components, so I am experienced using these core technologies,
@@ -292,8 +308,12 @@
                 Kubernetes, Skaffold and Gloogle Cloud for infrastructure and
                 deployment, GitHub Actions for CI/CD, NATS Streaming Server as
                 my message queue for my event architecture and Next.js for SSR
-                on the frontend.
+                on the frontend.</span
+                >
               </p>
+              <button onclick="ReadMoreAndLess()" id="myButton">
+                Read more
+              </button>
               <hr style="border-color: rgb(140, 209, 224)" />
             </div>
             <div class="w3-container">
@@ -316,139 +336,149 @@
                 current business logic into the already existing API’s in some
                 cases and the development of others from scratch according to
                 specification and need at Walmart Central America using
-                TypeScript, Node, Express, I also build validation and
-                sanitization middlewares by making use of Express-Validator for
-                each and every endpoint I exposed to the client. During my time
-                working there I made use of good development practices by making
-                my code reusable, understandable, easy to read, testable (by
-                implementing unit and integration tests with Jest, Mocha, Chai
-                and Sinon) and well-documented (by documenting my API endpoints
-                using swagger and documenting my code using TSDoc). The database
-                that I used was SQL Server so I made use of Sequelize as an ORM
-                for interacting with the database from my API code. I also
-                dedicated enough time making sure my web services were efficient
-                by ensuring high performance and responsiveness to requests from
-                the front-end by making use of efficient algorithms for
-                different needs. As part of y frontend tasks I mainly worked at
-                integrating the backend endpoints into the React.JS application
-                and developing the frontend logic with the backend data so I
-                used core React features such as functional components, react
-                hooks and react-redux for state management, axios as a REST
-                client for consuming API endpoints and by testing my code with
-                the use of React-Testing-Library. I’ve also helped on a minor
-                degree at UI development and styling with Material UI, SASS,
-                HTML and CSS. In this project I worked at a team of 6 more
-                developers, a Scrum Master and 3 QA engineers, we were using an
-                agile methodology for the development cycle and due to the fact
-                that the project was geographically taking place in central
-                America, I worked remotely from start to end. As well as also
-                I’ve been responsible for the development of new Frontend
-                features to the Telcel eCommerce sites, representative
-                activities are creating templates, components, pages,
-                establishing routes and setting up OSGi services towards the end
-                goal of allowing users to search for Telcel services and
-                products and buying online. I have been in this position for
-                just about 3 months, but during this time I have been using
-                technologies such as HTML5, HTL, CSS3, Sightly, JavaScript, JSP,
-                Java, Servlets. At CIAT also I did give support in a Large-scale
-                business project for Grupo Posadas Corporate. Project that has
-                consisted of the migration of its hotel services site (login,
-                access problems, password recovery, reservation availability
-                search, reservation registration, reservation payments,
-                reservation consultation, reservation modification, reservation
-                elimination , sending notifications by mail, creation of user
-                profiles, creation of users, admin panel, role based sessions,
-                analytics, SEO, advanced search of reservations) migrated and
-                developed from only Java technologies to SPA JavaScript / Vue/
-                React in the Front End and Microservices Java / Spring Boot in
-                the Back End. In addition to additional functionalities from the
-                original such as implementation of user roles / privileges,
-                LifeRay integration for digital assets, digital analytics and
-                SEO with Google API's. This has been the largest remote modality
-                project in which I have participated, I have learned to work in
-                a multidisciplinary team with professionals from different
-                backgrounds, QA's, BA's, Designers, PM's and fellow developers
-                working under the Scrum framework. My participation in this
-                project has been from the beginning of it, since the beginning
-                of the first Sprint, my activities as a developer have been as a
-                Back and Front End developer, as far as Front-End development is
-                concerned I have been developing the corresponding SPA of the
-                project where I have applied good development practices,
-                designing and building responsive, mobile-first user interfaces
-                and implementing user functionality. Always with the aim of
-                creating modular code where each component is highly reusable
-                and with a defined purpose, ensuring optimal performance,
-                avoiding code duplication by applying S.O.L.ID and TDD
-                principles for the coding and unit test suite (using Jest.js).
-                Coding using modern ES6 features with use of Babel for
-                compatibility with different types of browsers. Use of NPM
-                packages for different purposes such as form validation,
-                component documentation, internationalization, axios for
-                consumption of REST-type web services, encryption, use of
-                localStorage with its respective polyfills for browser
-                compatibility, development completely in JavaScript and using
-                the benefits of Vue.js/React.js like Vuex/Redux/ Flux for state
-                management and vue-router/react-router for component routing.
-                Another interesting point was my experience with a high level of
-                concurrency where asynchronous programming was necessary,
-                however JavaScript and its promises and async / await properties
-                were very useful to be able to render the data consumed from the
-                API correctly, avoiding runtime errors. Due to the fact that in
-                this project more than a hundred components were used and high
-                reactivity of the content consumed from complex JSON responses
-                from restful web services was implemented with hundreds of lists
-                nested by user actions, a good analysis of the data flow was
-                necessary to maintain the persistence of the same regardless of
-                the hierarchy and ensuring that the data is constant and
-                expected using localStorage and at the same time respecting
-                authorization and authentication factors through the management
-                of the JWT consumed from the API, respecting the lifetime of the
-                token and user inactivity in the app to log out and clear cache
-                completely. Regarding the layout, I also added improvements to
-                the components delivered by the UX / UI team, these improvements
-                were made with HTML, CSS, SASS and Bootstrap/Material
-                UI/Vuetify. Finally, the component documentation is implemented
-                with Vuese.js/Styleguidist for auto-generation of documentation
-                by component. For the release of code to production I used
-                webpack to generate the optimized files that would be deployed
-                on a Tomcat server. Another important point that I learned is to
-                always have a clear workflow in git, since we work in a team of
-                several developers it is better to use descriptive commits and
-                document code clearly to avoid git merging conflicts.Regarding
-                my participation as a Back-End developer, I have contributed
-                developing restful-type web services under a microservices
-                architecture using Java / Spring Boot / Data / Security and
-                consumption of SOAP-type web services. These web services
-                execute the basic CRUD operations but always taking care to
-                optimize the response performance. In this project I had the
-                opportunity to explore Liferay CMS for file consumption, Swagger
-                for endpoint documentation and JUnit for unit tests, working
-                with relational databases such as Oracle and Postgres and
-                setting up WebLogic and Apache server. As a Mobile Apps
-                Developer at CIAT; I developed the functionality of a mobile app
-                for krispy kreme in collaboration with a team of 3 more
-                developers. My main responsibilities and activities were making
-                the UI components functional by integrating the UI with the
-                RESTful API used for that app, so, such activities were
-                consumption RESTful Web services, managing state inside the UI
-                and rendering the proper UI with the specific scenario as well
-                as the other way around by capturing the user input and sending
-                it to the API and process the responses from those workflows,
-                middleware authentication and authorization were also part of my
-                responsibilities as far the UI is concerned. I used Ionic and
-                React Native for the development of this mobile app. During
-                these years at CIAT, I worked as FullSTack Developer by
-                developing UI core functionality and API integration using the
-                TypeScript based framework Angular 2+ and developing RESTful Web
-                services using the Java framework Spring Boot under a
-                Microservice architecture and implementing AWS S3 for some of
-                these microservices. I had the opportunity to work with only
-                Senior Developers, being me the only Junior one at the time,
-                which gave me the benefit of learning some good coding practices
-                and design patterns such as MVC and principles such and SOLID as
-                well as my first project under a Scrum regime, lessons which
-                helped me a lot throughout my career as a Developer since then.
+                TypeScript, Node, Express, <span id="dots2">...</span
+                ><span id="more2"
+                  >I also build validation and sanitization middlewares by
+                  making use of Express-Validator for each and every endpoint I
+                  exposed to the client. During my time working there I made use
+                  of good development practices by making my code reusable,
+                  understandable, easy to read, testable (by implementing unit
+                  and integration tests with Jest, Mocha, Chai and Sinon) and
+                  well-documented (by documenting my API endpoints using swagger
+                  and documenting my code using TSDoc). The database that I used
+                  was SQL Server so I made use of Sequelize as an ORM for
+                  interacting with the database from my API code. I also
+                  dedicated enough time making sure my web services were
+                  efficient by ensuring high performance and responsiveness to
+                  requests from the front-end by making use of efficient
+                  algorithms for different needs. As part of y frontend tasks I
+                  mainly worked at integrating the backend endpoints into the
+                  React.JS application and developing the frontend logic with
+                  the backend data so I used core React features such as
+                  functional components, react hooks and react-redux for state
+                  management, axios as a REST client for consuming API endpoints
+                  and by testing my code with the use of React-Testing-Library.
+                  I’ve also helped on a minor degree at UI development and
+                  styling with Material UI, SASS, HTML and CSS. In this project
+                  I worked at a team of 6 more developers, a Scrum Master and 3
+                  QA engineers, we were using an agile methodology for the
+                  development cycle and due to the fact that the project was
+                  geographically taking place in central America, I worked
+                  remotely from start to end. As well as also I’ve been
+                  responsible for the development of new Frontend features to
+                  the Telcel eCommerce sites, representative activities are
+                  creating templates, components, pages, establishing routes and
+                  setting up OSGi services towards the end goal of allowing
+                  users to search for Telcel services and products and buying
+                  online. I have been in this position for just about 3 months,
+                  but during this time I have been using technologies such as
+                  HTML5, HTL, CSS3, Sightly, JavaScript, JSP, Java, Servlets. At
+                  CIAT also I did give support in a Large-scale business project
+                  for Grupo Posadas Corporate. Project that has consisted of the
+                  migration of its hotel services site (login, access problems,
+                  password recovery, reservation availability search,
+                  reservation registration, reservation payments, reservation
+                  consultation, reservation modification, reservation
+                  elimination , sending notifications by mail, creation of user
+                  profiles, creation of users, admin panel, role based sessions,
+                  analytics, SEO, advanced search of reservations) migrated and
+                  developed from only Java technologies to SPA JavaScript / Vue/
+                  React in the Front End and Microservices Java / Spring Boot in
+                  the Back End. In addition to additional functionalities from
+                  the original such as implementation of user roles /
+                  privileges, LifeRay integration for digital assets, digital
+                  analytics and SEO with Google API's. This has been the largest
+                  remote modality project in which I have participated, I have
+                  learned to work in a multidisciplinary team with professionals
+                  from different backgrounds, QA's, BA's, Designers, PM's and
+                  fellow developers working under the Scrum framework. My
+                  participation in this project has been from the beginning of
+                  it, since the beginning of the first Sprint, my activities as
+                  a developer have been as a Back and Front End developer, as
+                  far as Front-End development is concerned I have been
+                  developing the corresponding SPA of the project where I have
+                  applied good development practices, designing and building
+                  responsive, mobile-first user interfaces and implementing user
+                  functionality. Always with the aim of creating modular code
+                  where each component is highly reusable and with a defined
+                  purpose, ensuring optimal performance, avoiding code
+                  duplication by applying S.O.L.ID and TDD principles for the
+                  coding and unit test suite (using Jest.js). Coding using
+                  modern ES6 features with use of Babel for compatibility with
+                  different types of browsers. Use of NPM packages for different
+                  purposes such as form validation, component documentation,
+                  internationalization, axios for consumption of REST-type web
+                  services, encryption, use of localStorage with its respective
+                  polyfills for browser compatibility, development completely in
+                  JavaScript and using the benefits of Vue.js/React.js like
+                  Vuex/Redux/ Flux for state management and
+                  vue-router/react-router for component routing. Another
+                  interesting point was my experience with a high level of
+                  concurrency where asynchronous programming was necessary,
+                  however JavaScript and its promises and async / await
+                  properties were very useful to be able to render the data
+                  consumed from the API correctly, avoiding runtime errors. Due
+                  to the fact that in this project more than a hundred
+                  components were used and high reactivity of the content
+                  consumed from complex JSON responses from restful web services
+                  was implemented with hundreds of lists nested by user actions,
+                  a good analysis of the data flow was necessary to maintain the
+                  persistence of the same regardless of the hierarchy and
+                  ensuring that the data is constant and expected using
+                  localStorage and at the same time respecting authorization and
+                  authentication factors through the management of the JWT
+                  consumed from the API, respecting the lifetime of the token
+                  and user inactivity in the app to log out and clear cache
+                  completely. Regarding the layout, I also added improvements to
+                  the components delivered by the UX / UI team, these
+                  improvements were made with HTML, CSS, SASS and
+                  Bootstrap/Material UI/Vuetify. Finally, the component
+                  documentation is implemented with Vuese.js/Styleguidist for
+                  auto-generation of documentation by component. For the release
+                  of code to production I used webpack to generate the optimized
+                  files that would be deployed on a Tomcat server. Another
+                  important point that I learned is to always have a clear
+                  workflow in git, since we work in a team of several developers
+                  it is better to use descriptive commits and document code
+                  clearly to avoid git merging conflicts.Regarding my
+                  participation as a Back-End developer, I have contributed
+                  developing restful-type web services under a microservices
+                  architecture using Java / Spring Boot / Data / Security and
+                  consumption of SOAP-type web services. These web services
+                  execute the basic CRUD operations but always taking care to
+                  optimize the response performance. In this project I had the
+                  opportunity to explore Liferay CMS for file consumption,
+                  Swagger for endpoint documentation and JUnit for unit tests,
+                  working with relational databases such as Oracle and Postgres
+                  and setting up WebLogic and Apache server. As a Mobile Apps
+                  Developer at CIAT; I developed the functionality of a mobile
+                  app for krispy kreme in collaboration with a team of 3 more
+                  developers. My main responsibilities and activities were
+                  making the UI components functional by integrating the UI with
+                  the RESTful API used for that app, so, such activities were
+                  consumption RESTful Web services, managing state inside the UI
+                  and rendering the proper UI with the specific scenario as well
+                  as the other way around by capturing the user input and
+                  sending it to the API and process the responses from those
+                  workflows, middleware authentication and authorization were
+                  also part of my responsibilities as far the UI is concerned. I
+                  used Ionic and React Native for the development of this mobile
+                  app. During these years at CIAT, I worked as FullSTack
+                  Developer by developing UI core functionality and API
+                  integration using the TypeScript based framework Angular 2+
+                  and developing RESTful Web services using the Java framework
+                  Spring Boot under a Microservice architecture and implementing
+                  AWS S3 for some of these microservices. I had the opportunity
+                  to work with only Senior Developers, being me the only Junior
+                  one at the time, which gave me the benefit of learning some
+                  good coding practices and design patterns such as MVC and
+                  principles such and SOLID as well as my first project under a
+                  Scrum regime, lessons which helped me a lot throughout my
+                  career as a Developer since then.</span
+                >
               </p>
+              <button onclick="ReadMoreAndLess2()" id="myButton2">Read more</button>
+
               <hr style="border-color: rgb(140, 209, 224)" />
             </div>
             <div class="w3-container">
