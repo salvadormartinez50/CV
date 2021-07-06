@@ -1,3 +1,8 @@
+@media only screen and (min-width: 200px) and (max-width: 1319px) {
+  .firstConteiner {
+    background-color:rgb(219, 230, 230);
+  }
+}
 .center {
   width: 35%;
   margin-left: 24vh;
@@ -50,7 +55,16 @@
     top: 1vh;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 899px) {
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  .center {
+    width: 35%;
+    margin-left: 14vh;
+    position: relative;
+    display: block;
+    top: 1vh;
+  }
+}
+@media only screen and (min-width:800px) and (max-width: 899px) {
   .center {
     width: 35%;
     margin-left: 12vh;
@@ -80,7 +94,7 @@
 @media only screen and (min-width: 1300px) {
   .center {
     width: 35%;
-    margin-left: 40vh;
+    margin-left: 24vh;
     position: relative;
     display: block;
     top: 1vh;
@@ -293,11 +307,11 @@
   }
 }
 .logopoli {
-  width: 10%;
+  width: 6%;
 }
 @media only screen and (min-width: 320px) and (max-width:459px) {
   .logopoli {
-    width: 15%;
+    width: 10%;
   }
 }
 .S2 {
