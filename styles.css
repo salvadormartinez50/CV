@@ -1,3 +1,4 @@
+import React from react
 .firstContainer {
   background-color: rgb(224, 235, 235);
 }
@@ -372,6 +373,27 @@
   .logopoli {
     width: 10%;
   }
+}
+.button {
+  background-color: #d9d9eb; /* Green background */
+  border: none; /* Remove borders */
+  border-radius: 6%;
+  border-left-color: rgb(7, 19, 19);
+  color: teal; /* White text */
+  padding: 1vh 0.5vw; /* Some padding */
+  font-size: 2vh; /* Set a font size */
+  cursor:pointer;
+  transition: all 0.5s;
+  }
+.button:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.button:active {
+  background-color: #04AA6D;
+  color: white;
+  transform: translateY(0.5vh);
+  box-shadow: 0 0.5vh rgb(64, 76, 148);
 }
 .S2 {
   font-size: calc(10px + 2vmin);
