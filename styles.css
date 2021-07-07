@@ -17,17 +17,17 @@ import React from react
 }
 @media (prefers-reduced-motion: no-preference) {
   .center {
-    animation: center-spin infinite 1s linear;
+    animation: center-spin infinite 12s linear;
   }
 }
 @keyframes center-spin {
-  from {
-  transform: rotate(5deg);
+  0%   {border-radius: 45%;  transform: rotate(9deg) skewX(3deg); }
+  25%  {border-radius: 15%;  transform: rotate(4deg) skewX(1deg);}
+  50%  {border-radius: 5%;  transform: rotate(0deg) skewX(0deg); }
+  75%  {border-radius: 15%;  transform: rotate(4deg) skewX(1deg);}
+  100% {border-radius: 45%;  transform: rotate(9deg) skewX(3deg);}
 }
-to {
-  transform: rotate(1deg);
-}
-}
+
 @media only screen and (min-width: 200px) and (max-width: 319px) {
   .center {
     width: 35%;
