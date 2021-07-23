@@ -29,3 +29,5 @@ function ReadMoreAndLess2() {
     moreText.style.display = "inline";
   }
 }
+
+document.getElementById("ProfilePhoto").style.marginLeft = "2vw";

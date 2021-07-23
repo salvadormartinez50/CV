@@ -1,4 +1,4 @@
-import React from react .firstContainer {
+ .firstContainer {
   background-color: rgb(224, 235, 235);
 }
 @media only screen and (min-width: 200px) and (max-width: 1319px) {
