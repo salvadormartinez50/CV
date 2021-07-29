@@ -30,4 +30,4 @@ function ReadMoreAndLess2() {
   }
 }
 
-document.getElementById("ProfilePhoto").style.marginLeft = "2vw";
+console.log(23+45);
