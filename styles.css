@@ -1,4 +1,4 @@
- .firstContainer {
+.firstContainer {
   background-color: rgb(224, 235, 235);
 }
 @media only screen and (min-width: 200px) and (max-width: 1319px) {
@@ -396,7 +396,7 @@
 @media only screen and (min-width: 1800px) and (max-width: 1999px) and (min-height: 1000px) and (max-height: 1100px) {
   .center {
     width: 35%;
-    margin-left: 42vh;
+    margin-left: 26vh;
     position: relative;
     display: block;
     top: 1vh;
