@@ -503,6 +503,40 @@
     position: relative;
   }
 }
+@media only screen and (min-width: 1900px) and (max-width: 2000px) and (min-height: 1001px) and (max-height: 1100px) {
+  .center {
+    width: 35%;
+    margin-left: 34vh;
+    position: relative;
+    display: block;
+    top: 1vh;
+    border-radius: 5%;
+  }
+
+  .chava {
+    width: 50%;
+    margin-left: 2vw;
+    margin-top: -13vh;
+    font-size: 5vh;
+    position: absolute;
+  }
+  .WebPage {
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2vh;
+    color: blue;
+    position: relative;
+  }
+  .mail {
+    text-align: left;
+    margin-left: 0vw;
+    margin-bottom: 0vh;
+    font-size: 2vh;
+    color: rgb(78, 82, 82);
+    position: relative;
+  }
+}
 @media only screen and (min-width: 2100px) and (max-width: 2199px) {
   .center {
     width: 35%;
