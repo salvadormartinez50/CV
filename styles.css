@@ -666,7 +666,55 @@
     top: 1vh;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 2199px) and (min-height: 700px) and (max-height: 1100px) {
+@media only screen and (min-width: 1400px) and (max-width: 1500px) and (min-height: 700px) and (max-height: 1100px) {
+  .center {
+    width: 35%;
+    margin-left: 30vh;
+    position: relative;
+    display: block;
+    top: 1vh;
+  }
+  .chava {
+    width: 50%;
+    margin-left: 2vw;
+    margin-top: -12vh;
+    font-size: 5vh;
+    position: absolute;
+  }
+  .WebPage {
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2vh;
+    color: blue;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1600px) and (min-height: 700px) and (max-height: 1100px) {
+  .center {
+    width: 35%;
+    margin-left: 30vh;
+    position: relative;
+    display: block;
+    top: 1vh;
+  }
+  .chava {
+    width: 50%;
+    margin-left: 2vw;
+    margin-top: -12vh;
+    font-size: 5vh;
+    position: absolute;
+  }
+  .WebPage {
+    text-align: left;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    font-size: 2vh;
+    color: blue;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1601px) and (max-width: 2199px) and (min-height: 700px) and (max-height: 1100px) {
   .center {
     width: 35%;
     margin-left: 30vh;
