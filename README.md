@@ -1,30 +1,36 @@
 # CV/Resume - Salvador Martínez Espinosa
 
-Personal CV/Resume website built with HTML, CSS, JavaScript and React components. Features a responsive design with bilingual support (English/Spanish).
+Personal CV/Resume application built with React. Features a responsive design with bilingual support (English/Spanish). The project includes both static HTML versions and a React application.
 
 ## 🚀 Live Demo
 
-- **English Version**: [index.html](./index.html)
-- **Spanish Version**: [index4.html](./index4.html)
+- **React Application**: Run `npm start` to view at [http://localhost:3000](http://localhost:3000)
+- **Static English Version**: [index.html](./index.html)
+- **Static Spanish Version**: [index4.html](./index4.html)
 
 ## 💻 Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Styling**: W3.CSS Framework
+- **Frontend**: React, HTML5, CSS3, JavaScript
+- **Styling**: W3.CSS Framework, CSS-in-JS
 - **Icons**: Font Awesome
 - **Fonts**: Google Fonts (Roboto)
-- **React Components**: For interactive elements
+- **Build Tool**: Create React App
 
 ## 📁 Project Structure
 
 ```
 CV/
-├── index.html          # English version
-├── index4.html         # Spanish version  
-├── styles.css          # Custom styles
-├── scripts/            # JavaScript files
-├── src/components/     # React components and images
-└── package.json        # Dependencies
+├── public/
+│   └── index.html      # React app entry point
+├── src/
+│   ├── components/
+│   │   ├── App.js      # Main React CV component
+│   │   └── images/     # Profile photo and assets
+│   └── styles/         # CSS files
+├── index.html          # Static English version
+├── index4.html         # Static Spanish version
+├── scripts/            # JavaScript for static versions
+└── package.json        # Dependencies and scripts
 ```
 
 ## 🚀 Getting Started
@@ -59,12 +65,13 @@ yarn start
 
 ## 🌍 Features
 
+- ✅ **React Application**: Modern React-based CV with component architecture
 - ✅ **Responsive Design**: Works on desktop, tablet, and mobile
-- ✅ **Bilingual Support**: English and Spanish versions
-- ✅ **Interactive Elements**: Expandable sections with "Read more" functionality
-- ✅ **Professional Layout**: Clean, modern design
-- ✅ **Skills Visualization**: Progress bars for technical skills
+- ✅ **Bilingual Support**: English and Spanish versions (static HTML + React)
+- ✅ **Professional Layout**: Clean, modern design with W3.CSS
+- ✅ **Skills Visualization**: Interactive progress bars for technical skills
 - ✅ **Contact Information**: Direct links for email and social media
+- ✅ **Static Fallback**: HTML versions available for direct browser viewing
 
 ## 🛠️ Available Scripts
 
