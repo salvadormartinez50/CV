@@ -35,15 +35,15 @@ function ReadMoreAndLess() {
   var moreText = document.getElementById("moreOpenpay");
   var btnText = document.getElementById("myButtonOpenpay");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Leer más";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Leer menos";
-    moreText.style.display = "inline";
-  }
+   if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Leer más";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Leer menos";
+      moreText.style.display = "inline";
+    }
 }
   
   console.log(23+45);
