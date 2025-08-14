@@ -30,4 +30,20 @@ function ReadMoreAndLess2() {
   }
 }
 
+function ReadMoreAndLessOpenpay() {
+  var dots = document.getElementById("dotsOpenpay");
+  var moreText = document.getElementById("moreOpenpay");
+  var btnText = document.getElementById("myButtonOpenpay");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
 console.log(23+45);
