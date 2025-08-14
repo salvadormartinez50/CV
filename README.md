@@ -1,70 +1,95 @@
-# Getting Started with Create React App + one chage
+# CV/Resume - Salvador Martínez Espinosa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal CV/Resume website built with HTML, CSS, JavaScript and React components. Features a responsive design with bilingual support (English/Spanish).
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+- **English Version**: [index.html](./index.html)
+- **Spanish Version**: [index4.html](./index4.html)
 
-### `yarn start`
+## 💻 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Styling**: W3.CSS Framework
+- **Icons**: Font Awesome
+- **Fonts**: Google Fonts (Roboto)
+- **React Components**: For interactive elements
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Project Structure
 
-### `yarn test`
+```
+CV/
+├── index.html          # English version
+├── index4.html         # Spanish version  
+├── styles.css          # Custom styles
+├── scripts/            # JavaScript files
+├── src/components/     # React components and images
+└── package.json        # Dependencies
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `yarn build`
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd CV
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-### `yarn eject`
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌍 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- ✅ **Responsive Design**: Works on desktop, tablet, and mobile
+- ✅ **Bilingual Support**: English and Spanish versions
+- ✅ **Interactive Elements**: Expandable sections with "Read more" functionality
+- ✅ **Professional Layout**: Clean, modern design
+- ✅ **Skills Visualization**: Progress bars for technical skills
+- ✅ **Contact Information**: Direct links for email and social media
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🛠️ Available Scripts
 
-## Learn More
+### `npm start`
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `npm build`
+Builds the app for production to the `build` folder
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm test`
+Launches the test runner in interactive watch mode
 
-### Code Splitting
+## 📱 Responsive Breakpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Mobile**: < 600px
+- **Tablet**: 600px - 992px  
+- **Desktop**: > 992px
 
-### Analyzing the Bundle Size
+## 🌐 Browser Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-### Making a Progressive Web App
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for personal use and portfolio purposes.
