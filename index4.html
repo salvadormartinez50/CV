@@ -38,15 +38,20 @@
 
 <body style="background-color: rgb(224, 235, 235)">
   <!-- This is the background color of the entire document-->
-  <!-- Language switcher in top right corner -->
-  <div style="position: absolute; top: 10px; right: 20px; z-index: 1000;">
-    <p class="WebPage w3-small">
-      <i></i>
-      <a href="index.html" style="color: navy;">English version!</a>
-    </p>
-  </div>
   <!-- Page Container -->
-  <div class="w3-content w3-margin-top w3-responsive" style="max-width: 1400px;">
+  <div class="w3-content w3-margin-top w3-responsive" style="max-width: 1400px; position: relative;">
+    <!-- Language switcher in top right corner -->
+    <div class="w3-right w3-margin-top w3-hide-small" style="position: absolute; top: 0; right: 0; z-index: 1000;">
+      <p class="WebPage w3-small">
+        <i></i>
+        <a href="index.html" style="color: navy;">English version!</a>
+      </p>
+    </div>
+    <div class="w3-center w3-hide-medium w3-hide-large w3-margin-bottom">
+      <p class="WebPage w3-small">
+        <a href="index.html" style="color: navy;">English version!</a>
+      </p>
+    </div>
     <!-- The Grid -->
     <div class="w3-row-padding">
       <!-- Left Column -->
