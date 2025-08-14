@@ -46,4 +46,4 @@ function ReadMoreAndLessOpenpay() {
   }
 }
 
-console.log(23+45);
+console.log(23 + 45);

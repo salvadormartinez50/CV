@@ -1,621 +1,525 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Resume</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <style>
-      html,
-      body,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Roboto", sans-serif;
-      }
-      #more {
-        display: none;
-      }
-      #more2 {
-        display: none;
-      }
-      #moreOpenpay {
-        display: none;
-      }
-     
-    </style>
-    <script src="./scripts/index2.js"></script>
-  </head>
-  <body style="background-color: rgb(224, 235, 235)">
-    <!-- This is the background color of the entire document-->
-    <!-- Page Container -->
-    <div class="w3-content w3-margin-top" style="max-width: 4000px">
-      <!-- The Grid -->
-      <div class="w3-row-padding">
-        <!-- Left Column -->
-        <div class="w3-third">
-          <div class="w3-text-grey w3-card">
-            <div class="w3-display-container">
-              <img
-                id="ProfilePhoto"
-                src="./src/components/images/foto.jpg"
-                class="center"
-                alt="photo"
-              />
-              <div class="w3-display-bottomleft w3-container w3-text-black">
-                <h2 class="chava">Salvador Martínez Espinosa</h2>
-                <p class="WebPage">
-                  <i></i>
-                  <a href="index.html">English version!</a>
-                </p>
-              </div>
-            </div>
-            <div class="w3-container">
-              <p>
-                <i
-                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-green"
-                ></i
-                >Desarrollador de Sofware
-              </p>
-              <p>
-                <i
-                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"
-                ></i
-                >México, Mx.
-              </p>
-              <p class="mail">
-                <a href="mailto:cchhava@nube.unadmexico.mx"
-                  ><i
-                    class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"
-                  ></i
-                ></a>
-                <a
-                  href="mailto:cchhava@nube.unadmexico.mx"
-                  style="margin-left: -0.42vw"
-                  >cchhava@nube.unadmexico.mx</a
-                >
-              </p>
-              <p>
-                <i
-                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"
-                ></i
-                >052 797-100-94-88
-              </p>
-              <p>
-                <i
-                  class="fa fa-whatsapp fa-fw w3-margin-right w3-large w3-text-blue"
-                ></i
-                >052 797-100-94-88
-              </p>
-              <hr style="border-color: rgb(84, 201, 228)" />
 
-              <p class="w3-large">
-                <b
-                  ><i
-                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"
-                  ></i
-                  >Habilidades de programación</b
-                >
-              </p>
-              <p>Java/J2EE</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 90%"
-                >
-                  90%
-                </div>
-              </div>
-              <p>JavaScript</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 90%"
-                >
-                  90%
-                </div>
-              </div>
-              <p>React</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 80%"
-                >
-                  <div class="w3-center w3-text-white">80%</div>
-                </div>
-              </div>
-              <p>Python</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 75%"
-                >
-                  75%
-                </div>
-              </div>
-              <p>Media</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 50%"
-                >
-                  50%
-                </div>
-              </div>
-              <br />
+<head>
+  <title>Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Roboto", sans-serif;
+    }
 
-              <p class="w3-large w3-text-theme">
-                <b
-                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue"></i
-                  >Idiomas</b
-                >
+    #more {
+      display: none;
+    }
+
+    #more2 {
+      display: none;
+    }
+
+    #moreOpenpay {
+      display: none;
+    }
+  </style>
+  <script src="./scripts/index2.js"></script>
+</head>
+
+<body style="background-color: rgb(224, 235, 235)">
+  <!-- This is the background color of the entire document-->
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width: 4000px">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+      <!-- Left Column -->
+      <div class="w3-third">
+        <div class="w3-text-grey w3-card">
+          <div class="w3-display-container">
+            <img id="ProfilePhoto" src="./src/components/images/foto.jpg" class="center" alt="photo" />
+            <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2 class="chava">Salvador Martínez Espinosa</h2>
+              <p class="WebPage">
+                <i></i>
+                <a href="index.html">English version!</a>
               </p>
-              <p>Ingles</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 85%"
-                >
-                  85%
-                </div>
-              </div>
-              <p>Portugues</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 70%"
-                >
-                  70%
-                </div>
-              </div>
-              <p>Español</p>
-              <div class="w3-light-blue w3-round-xlarge w3-small">
-                <div
-                  class="ww3-container w3-center w3-round-xlarge w3-blue"
-                  style="width: 100%"
-                >
-                  Nativo
-                </div>
-              </div>
-              <br />
             </div>
           </div>
-          <br />
-          <!-- End Left Column -->
+          <div class="w3-container">
+            <p>
+              <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-green"></i>Desarrollador de Sofware
+            </p>
+            <p>
+              <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>México, Mx.
+            </p>
+            <p class="mail">
+              <a href="mailto:cchhava@nube.unadmexico.mx"><i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i></a>
+              <a href="mailto:cchhava@nube.unadmexico.mx" style="margin-left: -0.42vw">cchhava@nube.unadmexico.mx</a>
+            </p>
+            <p>
+              <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>052 797-100-94-88
+            </p>
+            <p>
+              <i class="fa fa-whatsapp fa-fw w3-margin-right w3-large w3-text-blue"></i>052 797-100-94-88
+            </p>
+            <hr style="border-color: rgb(84, 201, 228)" />
+
+            <p class="w3-large">
+              <b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"></i>Habilidades de programación</b>
+            </p>
+            <p>Java/J2EE</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 90%">
+                90%
+              </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 90%">
+                90%
+              </div>
+            </div>
+            <p>React</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 80%">
+                <div class="w3-center w3-text-white">80%</div>
+              </div>
+            </div>
+            <p>Python</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 75%">
+                75%
+              </div>
+            </div>
+            <p>Media</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 50%">
+                50%
+              </div>
+            </div>
+            <br />
+
+            <p class="w3-large w3-text-theme">
+              <b><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue"></i>Idiomas</b>
+            </p>
+            <p>Ingles</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 85%">
+                85%
+              </div>
+            </div>
+            <p>Portugues</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width: 70%">
+                70%
+              </div>
+            </div>
+            <p>Español</p>
+            <div class="w3-light-blue w3-round-xlarge w3-small">
+              <div class="ww3-container w3-center w3-round-xlarge w3-blue" style="width: 100%">
+                Nativo
+              </div>
+            </div>
+            <br />
+          </div>
         </div>
-        <!-- Right Column -->
-        <div class="w3-twothird">
-          <div class="w3-container w3-card w3-margin-bottom">
+        <br />
+        <!-- End Left Column -->
+      </div>
+      <!-- Right Column -->
+      <div class="w3-twothird">
+        <div class="w3-container w3-card w3-margin-bottom">
+          <h2 class="w3-text-indigo w3-padding-16">
+            <i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Presentación Profesional
+          </h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b class="h5">(Maven/Java/Spring Boot/Spring Cloud AWS/JavaScript/TypeScript/Nodejs/React/Angular
+                /Nextjs/Nestjs/PHP/Python)</b>
+            </h5>
+            <p style="text-align: justify">
+              Como desarrollador de software he estado trabajando durante los últimos 7 años en el diseño,
+              desarrollo y mantenimiento de aplicaciones. Mi trayectoria abarca industrias como finanzas,
+              gobierno, comercio minorista y hostelería, desempeñándome en roles Senior developer
+              y Full-stack.
+              Como Ingeniero de Software Java, tengo una sólida experiencia en la creación de aplicaciones y
+              microservicios basados en Java, utilizando Spring Framework para construir soluciones robustas y
+              escalables. Mis habilidades incluyen la colaboración en equipos multidisciplinares para definir y lanzar
+              nuevas funcionalidades, así como la depuración y resolución de problemas técnicos para garantizar el alto
+              rendimiento de las aplicaciones.
+            </p>
+            <hr style="border-color: rgb(140, 209, 224)" />
+          </div>
+          <div class="w3-container">
             <h2 class="w3-text-indigo w3-padding-16">
-              <i
-                class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-blue"
-              ></i
-              >Presentación Profesional
+              <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Experiencia Laboral
             </h2>
             <div class="w3-container">
               <h5 class="w3-opacity">
-                <b class="h5"
-                  >(Maven/Java/Spring Boot/Spring Cloud AWS/JavaScript/TypeScript/Nodejs/React/Angular
-                  /Nextjs/Nestjs/PHP/Python)</b
-                >
-              </h5>
-              <p style="text-align: justify">
-                Como desarrollador de software he estado trabajando durante los últimos 7 años en el diseño, 
-                desarrollo y mantenimiento de aplicaciones. Mi trayectoria abarca industrias como finanzas,
-                 gobierno, comercio minorista y hostelería, desempeñándome en roles Senior developer 
-                 y Full-stack. 
-                Como Ingeniero de Software Java, tengo una sólida experiencia en la creación de aplicaciones y microservicios basados en Java, utilizando Spring Framework para construir soluciones robustas y escalables. Mis habilidades incluyen la colaboración en equipos multidisciplinares para definir y lanzar nuevas funcionalidades, así como la depuración y resolución de problemas técnicos para garantizar el alto rendimiento de las aplicaciones.
-              </p>
-              <hr style="border-color: rgb(140, 209, 224)" />
-            </div>
-            <div class="w3-container">
-              <h2 class="w3-text-indigo w3-padding-16">
-                <i
-                  class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"
-                ></i
-                >Experiencia Laboral
-              </h2>
-               <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b
-                  >Desarrollador Senior (Java/Angular/Spring boot/Spring Cloud AWS) <br />
-                  Openpay México (Plataforma de pagos en línea que ayuda a los negocios a recibir pagos de forma fácil y segura. Permite a las empresas aceptar cobros a través de sus sitios web, apps móviles o enlaces de pago).
-                  <br
-                /></b>
+                <b>Desarrollador Senior (Java/Angular/Spring boot/Spring Cloud AWS) <br />
+                  Openpay México (Plataforma de pagos en línea que ayuda a los negocios a recibir pagos de forma fácil y
+                  segura. Permite a las empresas aceptar cobros a través de sus sitios web, apps móviles o enlaces de
+                  pago).
+                  <br /></b>
               </h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>Mayo 2022 -
                 a la fecha
               </h6>
               <p style="text-align: justify">
-                Como desarrollador de software en Openpay, he sido responsable de crear y mantener una infraestructura clave para la gestión de transacciones financieras.
+                Como desarrollador de software en Openpay, he sido responsable de crear y mantener una infraestructura
+                clave para la gestión de transacciones financieras.
                 Mis principales responsabilidades incluyen:
-                <span id="dotsOpenpay">...</span
-                ><span id="moreOpenpay"
-                  ><br />
+                <span id="dotsOpenpay">...</span><span id="moreOpenpay"><br />
                   <ul style="text-align: left; margin-left: 20px;">
-                    <li><strong style="color: navy;">Desarrollo de Microservicios:</strong> He diseñado e implementado microservicios con Maven, Java y Spring Boot para validar e integrar transacciones financieras entre comercios y bancos.</li>
-                    <li><strong style="color: navy;">Gestión de APIs:</strong> Experiencia en la exposición de servicios REST (GET/POST/PUT).</li>
-                    <li><strong style="color: navy;">Mantenimiento y Solución de Problemas:</strong> Me encargo del mantenimiento de la pila web de diversas aplicaciones, resolviendo incidentes tanto en el Frontend como en el Backend.</li>
-                    <li><strong style="color: navy;">Modernización de Aplicaciones:</strong> Participo en la migración de funcionalidades existentes a nuevas tecnologías, enfocándose en mejorar la escalabilidad, disponibilidad y robustez de las soluciones.</li>
+                    <li><strong style="color: navy;">Desarrollo de Microservicios:</strong> He diseñado e implementado
+                      microservicios con Maven, Java y Spring Boot para validar e integrar transacciones financieras
+                      entre comercios y bancos.</li>
+                    <li><strong style="color: navy;">Gestión de APIs:</strong> Experiencia en la exposición de servicios
+                      REST (GET/POST/PUT).</li>
+                    <li><strong style="color: navy;">Mantenimiento y Solución de Problemas:</strong> Me encargo del
+                      mantenimiento de la pila web de diversas aplicaciones, resolviendo incidentes tanto en el Frontend
+                      como en el Backend.</li>
+                    <li><strong style="color: navy;">Modernización de Aplicaciones:</strong> Participo en la migración
+                      de funcionalidades existentes a nuevas tecnologías, enfocándose en mejorar la escalabilidad,
+                      disponibilidad y robustez de las soluciones.</li>
                   </ul>
-                 
 
 
 
-Estas funciones demuestran mi experiencia integral tanto en el desarrollo del lado del cliente como del lado del servidor.
-                  
-                   .</span
-                >
+
+                  Estas funciones demuestran mi experiencia integral tanto en el desarrollo del lado del cliente como
+                  del lado del servidor.
+
+                  .
+                </span>
               </p>
-              <button
-                onclick="ReadMoreAndLessOpenpay()"
-                id="myButtonOpenpay"
-                class="button"
-              >
+              <button onclick="ReadMoreAndLessOpenpay()" id="myButtonOpenpay" class="button">
                 Leer más
               </button>
 
               <hr style="border-color: rgb(140, 209, 224)" />
             </div>
-              <h5 class="w3-opacity">
-                <b
-                  >Desarrollador Full Stack
-                  (React/Node/Vue/Java/Ionic/Angular/Spring) | CIAT <br />
-                  (México, Consultoría Innovadora de Aplicaciones Tecnológicas
-                  S. de RL.)</b
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Junio 2019 -
-                A la fecha
-              </h6>
-              <p style="text-align: justify">
-                Como desarrollador de software en mi trabajo actual, en Banorte;
-                he sido responsable de la creación de Microservicios con
-                tecnología Quarkus,
-                <span id="dots">...</span
-                ><span id="more"
-                  >exposición de servicios (endpoints) Rest tipo GET/POST/PUT,
-                  que integran la operación de agentes de seguros bancarios con
-                  AMIS. Además de proporcionar mantenimiento a la pila web de
-                  diferentes empresas, mis actividades incluyen solucionar
-                  problemas de CSS/HTML/Handlebars, así como de migrar la
-                  funcionalidad actual de servicios OSB a Microservicios
-                  Quarkus. Por lo que tengo experiencia en el uso de estas
-                  tecnologías centrales, el propósito de las correcciones ha
-                  sido mejorar los problemas de accesibilidad, como proporcionar
-                  mensajes adecuados solo para lectores de pantalla y habilitar
-                  la navegación adecuada. El proyecto implica la representación
-                  del lado del servidor utilizando la capa de Java, por lo que
-                  estoy familiarizado con la representación de marcado de
-                  archivos yaml y la lógica comercial de codificación utilizando
-                  Java y WebLogic.</span
-                >
-              </p>
-              <button onclick="ReadMoreAndLess()" id="myButton" class="button">
-                <span>Leer más</span>
-              </button>
-              <hr style="border-color: rgb(140, 209, 224)" />
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b
-                  >Ingeniero de Desarrollo de Software | Freelance <br />
-                  (Nestjs/Nodejs/ Nextjs/Angular React/Java/ReactJS/VueJS/
-                  /Python/Django/AWS/GoogleCloud)
-                  <br
-                /></b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2017 -
-                June 2019
-              </h6>
-              <p style="text-align: justify">
-                Como desarrollador Full Stack, Fui responsable por el desarrollo
-                y mantenimiento de aplicaciones backend existentes en
-                tecnologias basadas en Java y PHP , así como el desarrollo de
-                microservicios web REST, ajustandolos a los APIs preexistentes y
-                en algunos otros casos desarrollando nuevas APIs desde cero. De
-                acuerdo a las especificaciones del proyecto.
-                <span id="dots2">...</span
-                ><span id="more2"
-                  >también construí middlewares de validación y sanitización
-                  haciendo uso de Express-Validator para todos y cada uno de los
-                  endpoints que expuse al cliente. Durante el tiempo que trabajé
-                  allí, utilicé buenas prácticas de desarrollo al hacer que mi
-                  código fuera reutilizable, comprensible, fácil de leer,
-                  comprobable (implementando pruebas unitarias y de integración
-                  con Sonar,Jest, Mocha, Chai y Sinon) (documentando mi API con
-                  puntos finales usando swagger y TSDoc). La base de datos que
-                  usé fue SQL Server, así que usé Sequelize como un ORM para
-                  interactuar con la base de datos desde mi código API. También
-                  dediqué suficiente tiempo al asegurarme de que mis servicios
-                  web fueran eficientes al garantizar un alto rendimiento y
-                  capacidad de respuesta a las solicitudes del front-end
-                  mediante el uso de algoritmos eficientes para diferentes
-                  necesidades. Como parte de mis tareas de frontend, trabajé
-                  principalmente en la integración de Endpoints de backend en la
-                  aplicación React.JS y en el desarrollo de la lógica de
-                  frontend con los datos de backend, por lo que usé las
-                  funciones principales de React, como componentes funcionales,
-                  hooks, react-redux para la gestión de estado, y axios como
-                  cliente REST para consumir Endpoints de API y probando mi
-                  código con el uso de React-Testing-Library. También he ayudado
-                  en un título secundario en el desarrollo y estilo de la
-                  interfaz de usuario con Material UI, SASS, HTML y CSS. En este
-                  proyecto trabajé en un equipo de 6 desarrolladores más, un
-                  Scrum Master y 3 ingenieros de QA, estábamos utilizando una
-                  metodología ágil para el ciclo de desarrollo y debido a que el
-                  proyecto se desarrollaba geográficamente en Centroamérica,
-                  trabajé de forma remota. de principio a fin. Así como también
-                  he sido responsable del desarrollo de nuevas funciones de
-                  Frontend para los sitios de comercio electrónico de Telcel,
-                  las actividades representativas están creando plantillas,
-                  componentes, páginas, estableciendo rutas y configurando
-                  servicios OSGi con el objetivo final de permitir a los
-                  usuarios buscar los servicios y productos en línea. y durante
-                  este trabajo estuve usando tecnologías como HTML5, HTL, CSS3,
-                  Sightly, JavaScript, JSP, Java, Servlets. También brindé apoyo
-                  en un proyecto empresarial de Gran Escala para Grupo Posadas
-                  Corporativo. Proyecto que ha consistido en la migración de su
-                  sitio de servicios hoteleros (login, problemas de acceso,
-                  recuperación de contraseña, búsqueda de disponibilidad de
-                  reservas, registro de reservas, pago de reservas, consulta de
-                  reservas, modificación de reservas, eliminación de reservas,
-                  envío de notificaciones por mail, creación de perfiles de
-                  usuarios, creación de usuarios, panel de administración,
-                  sesiones basadas en roles, analítica, SEO, búsqueda avanzada
-                  de reservas) migradas y desarrolladas desde solo tecnologías
-                  Java a SPA JavaScript/Vue/ React en el Front End y
-                  Microservicios Java/Spring Boot en el Back End. Además de
-                  funcionalidades adicionales del original como implementación
-                  de roles/privilegios de usuario, integración de LifeRay para
-                  activos digitales, análisis digital y SEO con API de Google.
-                  Este ha sido el proyecto de modalidad a distancia más grande
-                  en el que he participado, he aprendido a trabajar en un equipo
-                  multidisciplinar con profesionales de diferentes formaciones,
-                  QA's, BA's, Diseñadores, PM y compañeros desarrolladores que
-                  trabajan bajo el marco Scrum. Mi participación en este
-                  proyecto ha sido desde el inicio del mismo, así que, desde el
-                  inicio del primer Sprint, mis actividades como desarrollador
-                  han sido como desarrollador Back y Front End, y en cuanto a
-                  desarrollo Front-End se refiere he estado desarrollando el
-                  correspondiente SPA del proyecto donde he aplicado buenas
-                  prácticas de desarrollo, diseñando y construyendo interfaces
-                  de usuario receptivas, móviles primero e implementando la
-                  funcionalidad del usuario. Siempre con el objetivo de crear
-                  código modular donde cada componente sea altamente
-                  reutilizable y con un propósito definido, asegurando un
-                  rendimiento óptimo, evitando la duplicación de código
-                  aplicando los principios S.O.L.ID y TDD para la suite de
-                  codificación y pruebas unitarias (usando Jest.js).
-                  Codificación utilizando funciones modernas de ES6 con el uso
-                  de Babel para compatibilidad con diferentes tipos de
-                  navegadores. Uso de paquetes NPM para diferentes propósitos
-                  como validación de formularios, documentación de componentes,
-                  internacionalización, axios para consumo de servicios web tipo
-                  REST, encriptación, uso de localStorage con sus respectivos
-                  polyfills para compatibilidad con navegadores, desarrollo
-                  completamente en JavaScript y utilizando los beneficios de Vue
-                  .js/React.js como Vuex/Redux/ Flux para la gestión de estado y
-                  vue-router/react-router para el enrutamiento de componentes.
-                  Otro punto interesante fue mi experiencia con un alto nivel de
-                  concurrencia donde la programación asincrónica era necesario,
-                  sin embargo, JavaScript y sus propiedades de promesas y async
-                  / await fueron muy útiles para poder procesar correctamente
-                  los datos consumidos desde la API, evitando errores de tiempo
-                  de ejecución. Debido a que en este proyecto se utilizaron más
-                  de cien componentes y se implementó una alta reactividad del
-                  contenido consumido a partir de respuestas JSON complejas de
-                  servicios web tranquilos con cientos de listas anidadas por
-                  acciones de los usuarios, fue necesario un buen análisis del
-                  flujo de datos. mantener la persistencia de los mismos
-                  independientemente de la jerarquía y asegurando que los datos
-                  son constantes y esperados utilizando localStorage y al mismo
-                  tiempo respetando los factores de autorización y autenticación
-                  a través de la gestión de los JWT consumidos desde la API,
-                  respetando el tiempo de vida del token y inactividad del
-                  usuario en la aplicación para cerrar sesión y borrar el caché
-                  por completo. En cuanto al diseño, también agregué mejoras a
-                  los componentes entregados por el equipo de UX/UI, estas
-                  mejoras se realizaron con HTML, CSS, SASS y Bootstrap/Material
-                  UI/Vuetify. Finalmente, la documentación del componente se
-                  implementa con Vuese.js/Styleguidist para la generación
-                  automática de documentación por componente. Para el
-                  lanzamiento del código a producción, utilicé webpack para
-                  generar los archivos optimizados que se implementarían en un
-                  servidor Tomcat. Otro punto importante que aprendí es a tener
-                  siempre un flujo de trabajo claro en git, ya que trabajamos en
-                  un equipo de varios desarrolladores, es mejor usar compromisos
-                  descriptivos y documentar el código claramente para evitar
-                  conflictos de fusión de git. En cuanto a mi participación como
-                  Back-End desarrollador, he contribuido desarrollando servicios
-                  web tipo restful bajo una arquitectura de microservicios
-                  utilizando Java/Spring Boot/Data/Seguridad y consumo de
-                  servicios web tipo SOAP. Estos servicios web ejecutan las
-                  operaciones CRUD básicas pero siempre cuidando de optimizar el
-                  rendimiento de la respuesta. En este proyecto tuve la
-                  oportunidad de explorar Liferay CMS para consumo de archivos,
-                  Swagger para documentación de endpoints y JUnit para pruebas
-                  unitarias, trabajando con bases de datos relacionales como
-                  Oracle y Postgres y configurando servidor WebLogic y Apache.
-                  Como Desarrollador de Aplicaciones Móviles; Desarrollé la
-                  funcionalidad de una aplicación móvil para krispy kreme en
-                  colaboración con un equipo de 3 desarrolladores más. Mis
-                  principales responsabilidades y actividades consistían en
-                  hacer que los componentes de la interfaz de usuario fueran
-                  funcionales al integrar la interfaz de usuario con la API
-                  RESTful utilizada para esa aplicación, por lo tanto, tales
-                  actividades fueron el consumo de servicios web RESTful, la
-                  gestión del estado dentro de la interfaz de usuario y la
-                  representación de la interfaz de usuario adecuada con el
-                  escenario específico también. ya la inversa, capturando la
-                  entrada del usuario y enviándola a la API y procesando las
-                  respuestas de esos flujos de trabajo, la autenticación y
-                  autorización de middleware también formaban parte de mis
-                  responsabilidades en lo que respecta a la interfaz de usuario.
-                  Usé Ionic y React Native para el desarrollo de esta aplicación
-                  móvil. Durante estos años, trabajé como desarrollador
-                  FullStack desarrollando la funcionalidad central de la
-                  interfaz de usuario y la integración de la API utilizando el
-                  marco basado en TypeScript Angular 2+ y desarrollando
-                  servicios web RESTful utilizando el marco Java Spring Boot
-                  bajo una arquitectura de microservicios e implementando AWS S3
-                  para algunos de estos. microservicios. Tuve la oportunidad de
-                  trabajar solo con desarrolladores senior, siendo yo el único
-                  junior en ese momento, lo que me dio el beneficio de aprender
-                  algunas buenas prácticas de codificación y patrones de diseño
-                  como MVC y principios como SOLID, así como mi primer proyecto
-                  bajo un régimen de Scrum, lecciones que me ayudaron mucho a lo
-                  largo de mi carrera como Desarrollador desde entonces. .</span
-                >
-              </p>
-              <button
-                onclick="ReadMoreAndLess2()"
-                id="myButton2"
-                class="button"
-              >
-                Leer más
-              </button>
-
-              <hr style="border-color: rgb(140, 209, 224)" />
-            </div>
-            <div class="w3-container">
-              <h5 class="w3-opacity">
-                <b
-                  >Ingeniero de mantenimiento en Mecatronica. | Coin Acceptors
-                  Co. (CoinCo. USA) <br />
-                  (Programación de sistemas embebidos de tarjetas electronicas
-                  de Coin acceptor’s electronic)
-                </b>
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2015 -
-                April 2017
-              </h6>
-              <p style="text-align: justify">
-                Mi responsabilidad en CoinCo consistía en programar el sistema
-                bios del microprocesador de CoinCo 67095 basado en el
-                microprocesador motorola 68HC09, para el correcto funcionamiento
-                de los sistemas de control y aceptación de equipos aceptadores
-                de monedas para Latino America, Así como tambien de proporcionar
-                mantenimiento a los sistemas de control de diversos actuadores.
-              </p>
-              <hr style="border-color: rgb(140, 209, 224)" />
-            </div>
+            <h5 class="w3-opacity">
+              <b>Desarrollador Full Stack
+                (React/Node/Vue/Java/Ionic/Angular/Spring) | CIAT <br />
+                (México, Consultoría Innovadora de Aplicaciones Tecnológicas
+                S. de RL.)</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>Junio 2019 -
+              A la fecha
+            </h6>
+            <p style="text-align: justify">
+              Como desarrollador de software en mi trabajo actual, en Banorte;
+              he sido responsable de la creación de Microservicios con
+              tecnología Quarkus,
+              <span id="dots">...</span><span id="more">exposición de servicios (endpoints) Rest tipo GET/POST/PUT,
+                que integran la operación de agentes de seguros bancarios con
+                AMIS. Además de proporcionar mantenimiento a la pila web de
+                diferentes empresas, mis actividades incluyen solucionar
+                problemas de CSS/HTML/Handlebars, así como de migrar la
+                funcionalidad actual de servicios OSB a Microservicios
+                Quarkus. Por lo que tengo experiencia en el uso de estas
+                tecnologías centrales, el propósito de las correcciones ha
+                sido mejorar los problemas de accesibilidad, como proporcionar
+                mensajes adecuados solo para lectores de pantalla y habilitar
+                la navegación adecuada. El proyecto implica la representación
+                del lado del servidor utilizando la capa de Java, por lo que
+                estoy familiarizado con la representación de marcado de
+                archivos yaml y la lógica comercial de codificación utilizando
+                Java y WebLogic.</span>
+            </p>
+            <button onclick="ReadMoreAndLess()" id="myButton" class="button">
+              <span>Leer más</span>
+            </button>
+            <hr style="border-color: rgb(140, 209, 224)" />
           </div>
-          <div class="w3-container w3-card">
-            <h2 class="w3-text-grey w3-padding-16">
-              <i
-                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-              ></i
-              >Educación
-            </h2>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>LinkedIn Learning.com</b></h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - a la
-                fecha
-              </h6>
-              <p>
-                Para el desarrollo Web! Lo que he necesitado, en su mayoria, lo
-                encuentro aquí, mediante cursos de Java, Spring, JavaScript,
-                React, Node, etc.
-              </p>
-              <hr style="border-color: rgb(196, 221, 228)" />
-            </div>
-            <div class="w3-container">
-              <h5>
-                <img
-                  class="logopoli"
-                  src="./src/components/images/ipn2.png"
-                  alt="Logo IPN"
-                />
-                <b
-                  >Instituto Politécnico Nacional IPN, Ciudad de México,
-                  México.</b
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2006 - 2009
-              </h6>
-              <p>Maestría en ciencias exactas.</p>
-              <hr style="border-color: rgb(196, 221, 228)" />
-            </div>
-            <div class="w3-container">
-              <h5>
-                <img
-                  class="logopoli"
-                  src="./src/components/images/ipn2.png"
-                  alt="Logo IPN"
-                />
-                <b
-                  >Instituto Politécnico Nacional IPN, Ciudad de México,
-                  México.</b
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>1989 - 1994
-              </h6>
-              <p>Ingeniería en Comunicaciones y Electrónica.</p>
-              <hr style="border-color: rgb(196, 221, 228)" />
-            </div>
-            <div class="w3-container">
-              <h5>
-                <img
-                  class="logopoli"
-                  src="./src/components/images/ipn2.png"
-                  alt="Logo IPN"
-                />
-                <b
-                  >Centro de Estudios Cientificos y Tecnologicos, No. 10.
-                  México</b
-                >
-              </h5>
-              <h6 class="w3-text-teal">
-                <i class="fa fa-calendar fa-fw w3-margin-right"></i>1986 - 1989
-              </h6>
-              <p>Técnico en Electrónica</p>
-              <br />
-            </div>
-          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Ingeniero de Desarrollo de Software | Freelance <br />
+                (Nestjs/Nodejs/ Nextjs/Angular React/Java/ReactJS/VueJS/
+                /Python/Django/AWS/GoogleCloud)
+                <br /></b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2017 -
+              June 2019
+            </h6>
+            <p style="text-align: justify">
+              Como desarrollador Full Stack, Fui responsable por el desarrollo
+              y mantenimiento de aplicaciones backend existentes en
+              tecnologias basadas en Java y PHP , así como el desarrollo de
+              microservicios web REST, ajustandolos a los APIs preexistentes y
+              en algunos otros casos desarrollando nuevas APIs desde cero. De
+              acuerdo a las especificaciones del proyecto.
+              <span id="dots2">...</span><span id="more2">también construí middlewares de validación y sanitización
+                haciendo uso de Express-Validator para todos y cada uno de los
+                endpoints que expuse al cliente. Durante el tiempo que trabajé
+                allí, utilicé buenas prácticas de desarrollo al hacer que mi
+                código fuera reutilizable, comprensible, fácil de leer,
+                comprobable (implementando pruebas unitarias y de integración
+                con Sonar,Jest, Mocha, Chai y Sinon) (documentando mi API con
+                puntos finales usando swagger y TSDoc). La base de datos que
+                usé fue SQL Server, así que usé Sequelize como un ORM para
+                interactuar con la base de datos desde mi código API. También
+                dediqué suficiente tiempo al asegurarme de que mis servicios
+                web fueran eficientes al garantizar un alto rendimiento y
+                capacidad de respuesta a las solicitudes del front-end
+                mediante el uso de algoritmos eficientes para diferentes
+                necesidades. Como parte de mis tareas de frontend, trabajé
+                principalmente en la integración de Endpoints de backend en la
+                aplicación React.JS y en el desarrollo de la lógica de
+                frontend con los datos de backend, por lo que usé las
+                funciones principales de React, como componentes funcionales,
+                hooks, react-redux para la gestión de estado, y axios como
+                cliente REST para consumir Endpoints de API y probando mi
+                código con el uso de React-Testing-Library. También he ayudado
+                en un título secundario en el desarrollo y estilo de la
+                interfaz de usuario con Material UI, SASS, HTML y CSS. En este
+                proyecto trabajé en un equipo de 6 desarrolladores más, un
+                Scrum Master y 3 ingenieros de QA, estábamos utilizando una
+                metodología ágil para el ciclo de desarrollo y debido a que el
+                proyecto se desarrollaba geográficamente en Centroamérica,
+                trabajé de forma remota. de principio a fin. Así como también
+                he sido responsable del desarrollo de nuevas funciones de
+                Frontend para los sitios de comercio electrónico de Telcel,
+                las actividades representativas están creando plantillas,
+                componentes, páginas, estableciendo rutas y configurando
+                servicios OSGi con el objetivo final de permitir a los
+                usuarios buscar los servicios y productos en línea. y durante
+                este trabajo estuve usando tecnologías como HTML5, HTL, CSS3,
+                Sightly, JavaScript, JSP, Java, Servlets. También brindé apoyo
+                en un proyecto empresarial de Gran Escala para Grupo Posadas
+                Corporativo. Proyecto que ha consistido en la migración de su
+                sitio de servicios hoteleros (login, problemas de acceso,
+                recuperación de contraseña, búsqueda de disponibilidad de
+                reservas, registro de reservas, pago de reservas, consulta de
+                reservas, modificación de reservas, eliminación de reservas,
+                envío de notificaciones por mail, creación de perfiles de
+                usuarios, creación de usuarios, panel de administración,
+                sesiones basadas en roles, analítica, SEO, búsqueda avanzada
+                de reservas) migradas y desarrolladas desde solo tecnologías
+                Java a SPA JavaScript/Vue/ React en el Front End y
+                Microservicios Java/Spring Boot en el Back End. Además de
+                funcionalidades adicionales del original como implementación
+                de roles/privilegios de usuario, integración de LifeRay para
+                activos digitales, análisis digital y SEO con API de Google.
+                Este ha sido el proyecto de modalidad a distancia más grande
+                en el que he participado, he aprendido a trabajar en un equipo
+                multidisciplinar con profesionales de diferentes formaciones,
+                QA's, BA's, Diseñadores, PM y compañeros desarrolladores que
+                trabajan bajo el marco Scrum. Mi participación en este
+                proyecto ha sido desde el inicio del mismo, así que, desde el
+                inicio del primer Sprint, mis actividades como desarrollador
+                han sido como desarrollador Back y Front End, y en cuanto a
+                desarrollo Front-End se refiere he estado desarrollando el
+                correspondiente SPA del proyecto donde he aplicado buenas
+                prácticas de desarrollo, diseñando y construyendo interfaces
+                de usuario receptivas, móviles primero e implementando la
+                funcionalidad del usuario. Siempre con el objetivo de crear
+                código modular donde cada componente sea altamente
+                reutilizable y con un propósito definido, asegurando un
+                rendimiento óptimo, evitando la duplicación de código
+                aplicando los principios S.O.L.ID y TDD para la suite de
+                codificación y pruebas unitarias (usando Jest.js).
+                Codificación utilizando funciones modernas de ES6 con el uso
+                de Babel para compatibilidad con diferentes tipos de
+                navegadores. Uso de paquetes NPM para diferentes propósitos
+                como validación de formularios, documentación de componentes,
+                internacionalización, axios para consumo de servicios web tipo
+                REST, encriptación, uso de localStorage con sus respectivos
+                polyfills para compatibilidad con navegadores, desarrollo
+                completamente en JavaScript y utilizando los beneficios de Vue
+                .js/React.js como Vuex/Redux/ Flux para la gestión de estado y
+                vue-router/react-router para el enrutamiento de componentes.
+                Otro punto interesante fue mi experiencia con un alto nivel de
+                concurrencia donde la programación asincrónica era necesario,
+                sin embargo, JavaScript y sus propiedades de promesas y async
+                / await fueron muy útiles para poder procesar correctamente
+                los datos consumidos desde la API, evitando errores de tiempo
+                de ejecución. Debido a que en este proyecto se utilizaron más
+                de cien componentes y se implementó una alta reactividad del
+                contenido consumido a partir de respuestas JSON complejas de
+                servicios web tranquilos con cientos de listas anidadas por
+                acciones de los usuarios, fue necesario un buen análisis del
+                flujo de datos. mantener la persistencia de los mismos
+                independientemente de la jerarquía y asegurando que los datos
+                son constantes y esperados utilizando localStorage y al mismo
+                tiempo respetando los factores de autorización y autenticación
+                a través de la gestión de los JWT consumidos desde la API,
+                respetando el tiempo de vida del token y inactividad del
+                usuario en la aplicación para cerrar sesión y borrar el caché
+                por completo. En cuanto al diseño, también agregué mejoras a
+                los componentes entregados por el equipo de UX/UI, estas
+                mejoras se realizaron con HTML, CSS, SASS y Bootstrap/Material
+                UI/Vuetify. Finalmente, la documentación del componente se
+                implementa con Vuese.js/Styleguidist para la generación
+                automática de documentación por componente. Para el
+                lanzamiento del código a producción, utilicé webpack para
+                generar los archivos optimizados que se implementarían en un
+                servidor Tomcat. Otro punto importante que aprendí es a tener
+                siempre un flujo de trabajo claro en git, ya que trabajamos en
+                un equipo de varios desarrolladores, es mejor usar compromisos
+                descriptivos y documentar el código claramente para evitar
+                conflictos de fusión de git. En cuanto a mi participación como
+                Back-End desarrollador, he contribuido desarrollando servicios
+                web tipo restful bajo una arquitectura de microservicios
+                utilizando Java/Spring Boot/Data/Seguridad y consumo de
+                servicios web tipo SOAP. Estos servicios web ejecutan las
+                operaciones CRUD básicas pero siempre cuidando de optimizar el
+                rendimiento de la respuesta. En este proyecto tuve la
+                oportunidad de explorar Liferay CMS para consumo de archivos,
+                Swagger para documentación de endpoints y JUnit para pruebas
+                unitarias, trabajando con bases de datos relacionales como
+                Oracle y Postgres y configurando servidor WebLogic y Apache.
+                Como Desarrollador de Aplicaciones Móviles; Desarrollé la
+                funcionalidad de una aplicación móvil para krispy kreme en
+                colaboración con un equipo de 3 desarrolladores más. Mis
+                principales responsabilidades y actividades consistían en
+                hacer que los componentes de la interfaz de usuario fueran
+                funcionales al integrar la interfaz de usuario con la API
+                RESTful utilizada para esa aplicación, por lo tanto, tales
+                actividades fueron el consumo de servicios web RESTful, la
+                gestión del estado dentro de la interfaz de usuario y la
+                representación de la interfaz de usuario adecuada con el
+                escenario específico también. ya la inversa, capturando la
+                entrada del usuario y enviándola a la API y procesando las
+                respuestas de esos flujos de trabajo, la autenticación y
+                autorización de middleware también formaban parte de mis
+                responsabilidades en lo que respecta a la interfaz de usuario.
+                Usé Ionic y React Native para el desarrollo de esta aplicación
+                móvil. Durante estos años, trabajé como desarrollador
+                FullStack desarrollando la funcionalidad central de la
+                interfaz de usuario y la integración de la API utilizando el
+                marco basado en TypeScript Angular 2+ y desarrollando
+                servicios web RESTful utilizando el marco Java Spring Boot
+                bajo una arquitectura de microservicios e implementando AWS S3
+                para algunos de estos. microservicios. Tuve la oportunidad de
+                trabajar solo con desarrolladores senior, siendo yo el único
+                junior en ese momento, lo que me dio el beneficio de aprender
+                algunas buenas prácticas de codificación y patrones de diseño
+                como MVC y principios como SOLID, así como mi primer proyecto
+                bajo un régimen de Scrum, lecciones que me ayudaron mucho a lo
+                largo de mi carrera como Desarrollador desde entonces. .</span>
+            </p>
+            <button onclick="ReadMoreAndLess2()" id="myButton2" class="button">
+              Leer más
+            </button>
 
-          <!-- End Right Column -->
+            <hr style="border-color: rgb(140, 209, 224)" />
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity">
+              <b>Ingeniero de mantenimiento en Mecatronica. | Coin Acceptors
+                Co. (CoinCo. USA) <br />
+                (Programación de sistemas embebidos de tarjetas electronicas
+                de Coin acceptor’s electronic)
+              </b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2015 -
+              April 2017
+            </h6>
+            <p style="text-align: justify">
+              Mi responsabilidad en CoinCo consistía en programar el sistema
+              bios del microprocesador de CoinCo 67095 basado en el
+              microprocesador motorola 68HC09, para el correcto funcionamiento
+              de los sistemas de control y aceptación de equipos aceptadores
+              de monedas para Latino America, Así como tambien de proporcionar
+              mantenimiento a los sistemas de control de diversos actuadores.
+            </p>
+            <hr style="border-color: rgb(140, 209, 224)" />
+          </div>
+        </div>
+        <div class="w3-container w3-card">
+          <h2 class="w3-text-grey w3-padding-16">
+            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Educación
+          </h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>LinkedIn Learning.com</b></h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - a la
+              fecha
+            </h6>
+            <p>
+              Para el desarrollo Web! Lo que he necesitado, en su mayoria, lo
+              encuentro aquí, mediante cursos de Java, Spring, JavaScript,
+              React, Node, etc.
+            </p>
+            <hr style="border-color: rgb(196, 221, 228)" />
+          </div>
+          <div class="w3-container">
+            <h5>
+              <img class="logopoli" src="./src/components/images/ipn2.png" alt="Logo IPN" />
+              <b>Instituto Politécnico Nacional IPN, Ciudad de México,
+                México.</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>2006 - 2009
+            </h6>
+            <p>Maestría en ciencias exactas.</p>
+            <hr style="border-color: rgb(196, 221, 228)" />
+          </div>
+          <div class="w3-container">
+            <h5>
+              <img class="logopoli" src="./src/components/images/ipn2.png" alt="Logo IPN" />
+              <b>Instituto Politécnico Nacional IPN, Ciudad de México,
+                México.</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>1989 - 1994
+            </h6>
+            <p>Ingeniería en Comunicaciones y Electrónica.</p>
+            <hr style="border-color: rgb(196, 221, 228)" />
+          </div>
+          <div class="w3-container">
+            <h5>
+              <img class="logopoli" src="./src/components/images/ipn2.png" alt="Logo IPN" />
+              <b>Centro de Estudios Cientificos y Tecnologicos, No. 10.
+                México</b>
+            </h5>
+            <h6 class="w3-text-teal">
+              <i class="fa fa-calendar fa-fw w3-margin-right"></i>1986 - 1989
+            </h6>
+            <p>Técnico en Electrónica</p>
+            <br />
+          </div>
         </div>
 
-        <!-- End Grid -->
+        <!-- End Right Column -->
       </div>
 
-      <!-- End Page Container -->
+      <!-- End Grid -->
     </div>
 
-    <footer class="w3-container w3-teal w3-center w3-margin-top">
-      <p>Sigueme en mis redes sociales.</p>
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-      <p>
-        Mi sitio Web: &nbsp;&nbsp;&nbsp;
-        <a href="https://salvadormartinez50.github.io/CV/" target="_blank"
-          >https://salvadormartinez50.github.io/CV/</a
-        >
-      </p>
-    </footer>
-  </body>
+    <!-- End Page Container -->
+  </div>
+
+  <footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Sigueme en mis redes sociales.</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p>
+      Mi sitio Web: &nbsp;&nbsp;&nbsp;
+      <a href="https://salvadormartinez50.github.io/CV/" target="_blank">https://salvadormartinez50.github.io/CV/</a>
+    </p>
+  </footer>
+</body>
+
 </html>
